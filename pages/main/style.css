@@ -111,7 +111,6 @@ ul{
 }
 .start__screen_image
 {
-    margin-bottom: 0px;
     padding-top: 60px;
     width: 698px;
     height: 728px;
@@ -151,13 +150,13 @@ ul{
 
 /*  about section  style start  */
 .about{
-    display: flex;
     height: 588px;
+}
+.elements{
+    display: flex;
     margin: 80px 40px 100px 40px;
-
 }
 .about__content > h1 {
-    font-family: georgiaFont;
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -184,6 +183,97 @@ ul{
     margin-bottom: 25px;
 }
 /*  about section  style end  */
+
+
+/*  pets section  style start  */
+
+.pets{
+    height: 877px;
+    background: #F6F6F6;
+
+}
+.pets_content{
+    text-align: center;
+}
+.pets_heading{
+    width: 400px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;
+    max-width: 400px;
+    padding-top:80px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.slider_card{
+    width: 270px;
+    height: 435px;
+    text-align: center;
+    background: #FAFAFA;
+    border-radius: 9px;
+    margin-right: 90px;
+}
+.slider_card:nth-child(4){
+    margin-right: 53px;
+}
+.slider_card > img, .slider_card > p,.slider_card > button{
+     margin-bottom: 30px;
+}
+.label_slider_card{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.arrow_btn{
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.arrow_btn:nth-child(1){
+    margin-right: 53px;
+}
+.btn_pets{
+    align-items: center;
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    transition: .3s;
+}
+
+/*  pets section  style end  */
+
+
+
 /*.about {
     height: 588px;
 }
