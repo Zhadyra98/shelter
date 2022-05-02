@@ -195,7 +195,7 @@ ul{
 .pets_content{
     text-align: center;
 }
-.pets_heading{
+.section_heading{
     width: 400px;
     font-weight: 400;
     font-size: 35px;
@@ -270,8 +270,70 @@ ul{
     transition: .3s;
 }
 
+.slider_btn{
+    width: 187px;
+    height: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: #FAFAFA;
+}
 /*  pets section  style end  */
+/*  help section  style start  */
+.help{
+    height: 611px;
+}
+.help_content{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.help_content > .section_heading{
+    max-width: 308px;
+}
+.help_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 87px;
+    margin-right: 87px;
+    width:1026px;
+    height: 281px;
+    align-content: space-between;
+}
+.help_list > div{
+    text-align: center;
+    margin-right: 119px;
+}
+.help_list > div:nth-child(5){
+    margin-right: 0px;
+}
+.help_list > div:nth-child(6){
+    margin-left: 84px;
+}
+.help_list > div:nth-child(9){
+    margin-right: 84px;
+}
+.help_icon_img{
+    margin-bottom: 30px;
+}
+.help_icon_label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
 
+
+/*  help section  style end  */
 
 
 /*.about {
