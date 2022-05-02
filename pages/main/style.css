@@ -332,19 +332,70 @@ ul{
     color: #545454;
 }
 
-
 /*  help section  style end  */
-
-
-/*.about {
-    height: 588px;
+/*  donation section  style start  */
+.donation{
+    height: 462px;
+    background: #F6F6F6;
 }
-.pets {
-    height: 877px;
+.donation_content{
+    display: flex;
+    margin-left: 183px;
+    padding-top: 80px;
 }
-.help {
-    height: 611px;
+.donation_pet_img{
+    margin-right: 30px;
 }
+.section_donation_heading{
+    width: 400px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;
+    max-width:300px;
+    margin-bottom: 20px;
+}
+.donation_pet_content > h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.credit_card{
+    display: flex;
+    padding: 10px 14px;
+    width: 349px;
+    height: 43px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+.credit_card > h4{
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.donation_pet_content > p {
+    width: 380px;
+    height: 72px;
+    font-family: arialFont;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+/*  donation section  style end  */
+/*
 .donation {
     height: 462px;
 }
