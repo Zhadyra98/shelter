@@ -444,6 +444,136 @@ footer{
 .flex_wrapper :nth-child(3) {
     margin-bottom: 32px;
 }
-
 /* footer style end*/
 
+/* Responsive design when browser is 768px <= width < 1280px*/
+@media only screen and (max-width: 1279px) {
+    .start__screen{
+        flex-direction: column;
+    }    
+    .start__screen_title {
+        padding-top: 60px;
+    }
+    .start__screen__content{
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .start__screen__button {
+        display: block;
+        margin: 0 auto;
+    }
+    .start__screen_image {
+        width: 569px;
+        height: 593px;
+        margin-top: 100px;
+        position: absolute;
+        top: 400px;
+        right: 100px;
+    }
+    .start__screen_image > img{
+        max-height:100%; 
+        max-width:100%;
+    }
+    .header__wrapper {
+        padding: 30px 30px 0 30px;
+        height: 90px;
+    }
+    .header__and__start__screen {
+        height: 1095px;
+    }
+    .about{
+        height: 1048px;
+    }
+    .elements{
+        flex-direction: column-reverse;
+       
+    }
+    .about__content, .about__img{
+        margin: 0 auto;
+    }
+    .about__content{
+        margin-bottom: 80px;
+    }
+
+    .slider_card:nth-child(4){
+        display: none;
+    }
+    .arrow_btn:nth-child(1),.slider_card:nth-child(3) {
+        margin-right: 12px;
+    }
+    .slider_card:nth-child(2) {
+        margin-right: 30px;
+    }
+    .slider{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .section_heading{
+        margin: 0 auto 60px auto;
+    }
+    .help{
+        height: 779px;
+    }
+    .help_list > div {
+        width: 170px;
+        height: 113px;
+        margin-right: 60px;
+    }
+    .help_list > .mobile_no_margin{
+        margin-right: 0;
+    }
+    .help_list{
+        margin: 0 auto;
+        width: 630px;
+        height: 449px;
+    }
+
+    .donation_content {
+        flex-direction: column-reverse;
+    }
+    .help_list > div:nth-child(5) {
+        margin-right: 60px;
+    }
+    .help_list > div:nth-child(6) {
+        margin-left: 0;
+    }
+    .help_list > div:nth-child(9) {
+        margin-right: 0;
+    }
+    .donation{
+        height: 783px;
+    }
+    .donation_content{
+        margin: 0 auto;
+    }
+    .donation_pet_content{
+        margin: 0 auto;
+    }
+    .donation_pet_img{
+        margin: 60px auto 0 auto;
+    }
+    footer{
+        height: 639px;
+    }
+    .contacts, .locations {
+        width: 50%;
+        margin-right: 0;
+        width: 302px;
+        height: 234px;
+    
+    }
+    .footer_content {
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        gap: 60px;
+
+    }
+    .footer_img{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_img > img {
+        margin: 0 auto;
+    }
+}
